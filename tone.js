@@ -20,12 +20,12 @@ const E5 = new Audio("sounds/E5.mp3");
 const playSound = audio => {
   const clone = audio.cloneNode();
   clone.play();
-	// Decrease sound gradually
+	/* Decrease sound gradually
   setTimeout(() => (clone.volume = 0.8), 400);
   setTimeout(() => (clone.volume = 0.6), 800);
   setTimeout(() => (clone.volume = 0.4), 1200);
   setTimeout(() => (clone.volume = 0.2), 1600);
-  setTimeout(() => (clone.volume = 0), 2000);
+  setTimeout(() => (clone.volume = 0), 2000);*/
 };
 
 // C4
