@@ -1,0 +1,68 @@
+/* CSS Document */
+*{
+	box-sizing: border-box
+}
+body{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	background-color:rgba(3,111,197,0.80);
+	margin: 0;
+	padding: 0;
+}
+.bord{
+	display: flex;
+	position: relative;
+}
+.Wkey{
+	height: 300px;
+	width: 80px;
+	margin-right: 10px;
+	background-color: #FFFFFF;
+	cursor: pointer;
+	border: 1px solid #828282;
+	border-radius:0 0 5px 5px;
+	box-shadow: 5px 5px 5px 2px #5F5F5F;
+	transition: all .2s ease;
+}
+.Wkey:active{
+	box-shadow: 5px 0 5px  1px #5F5F5F;
+}
+.Wkey:hover{
+	background-color:#C6C6C6;
+}
+.Bkey{
+	position: absolute;
+	height: 180px;
+	width: 50px;
+	top: 0px;
+	cursor: pointer;
+	border-radius:0 0 8px 8px;
+	background:linear-gradient(#303030,#3B3B3B);
+	box-shadow: 2px 2px 8px 1px #5F5F5F;
+}
+.Bkey:hover, .Bkey:active{
+	background:linear-gradient(#000,#000);
+}
+#Db4{
+	left: 60px;
+}
+
+#Eb4{
+	left: 150px;
+}
+#Gb4{
+	left: 330px;
+}
+#Ab4{
+	left: 420px;
+}
+#Bb4{
+	left: 510px;
+}
+#Db5{
+	left: 690px;
+}
+#Eb5{
+	left: 780px;
+}
