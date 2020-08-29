@@ -1,5 +1,5 @@
 # Piano
-A virtual piano made in html css and javascript. plays piano note on a key press.
+A virtual piano made in `HTML` `CSS` and `JavaScript`. plays piano note on a key press.
 
 ## Demo
 for live demo [click here.](https://chinmayingale.github.io/piano/)
