@@ -41,8 +41,8 @@ C4Key.addEventListener("mousedown", playC4);
 const Db4Key = document.querySelector("#Db4");
 const playDb4 = () => {
   playSound(Db4);
-  Db4Key.classList.add("active");
-  setTimeout(() => Db4Key.classList.remove("active"), 200);
+  Db4Key.classList.add("activeb");
+  setTimeout(() => Db4Key.classList.remove("activeb"), 200);
 };
 Db4Key.addEventListener("mousedown", playDb4);
 
@@ -59,8 +59,8 @@ D4Key.addEventListener("mousedown", playD4);
 const Eb4Key = document.querySelector("#Eb4");
 const playEb4 = () => {
   playSound(Eb4);
-  Eb4Key.classList.add("active");
-  setTimeout(() => Eb4Key.classList.remove("active"), 200);
+  Eb4Key.classList.add("activeb");
+  setTimeout(() => Eb4Key.classList.remove("activeb"), 200);
 };
 Eb4Key.addEventListener("mousedown", playEb4);
 
@@ -86,8 +86,8 @@ F4Key.addEventListener("mousedown", playF4);
 const Gb4Key = document.querySelector("#Gb4");
 const playGb4 = () => {
   playSound(Gb4);
-  Gb4Key.classList.add("active");
-  setTimeout(() => Gb4Key.classList.remove("active"), 200);
+  Gb4Key.classList.add("activeb");
+  setTimeout(() => Gb4Key.classList.remove("activeb"), 200);
 };
 Gb4Key.addEventListener("mousedown", playGb4);
 
@@ -104,8 +104,8 @@ G4Key.addEventListener("mousedown", playG4);
 const Ab4Key = document.querySelector("#Ab4");
 const playAb4 = () => {
   playSound(Ab4);
-  Ab4Key.classList.add("active");
-  setTimeout(() => Ab4Key.classList.remove("active"), 200);
+  Ab4Key.classList.add("activeb");
+  setTimeout(() => Ab4Key.classList.remove("activeb"), 200);
 };
 Ab4Key.addEventListener("mousedown", playAb4);
 
@@ -122,8 +122,8 @@ A4Key.addEventListener("mousedown", playA4);
 const Bb4Key = document.querySelector("#Bb4");
 const playBb4 = () => {
   playSound(Bb4);
-  Bb4Key.classList.add("active");
-  setTimeout(() => Bb4Key.classList.remove("active"), 200);
+  Bb4Key.classList.add("activeb");
+  setTimeout(() => Bb4Key.classList.remove("activeb"), 200);
 };
 Bb4Key.addEventListener("mousedown", playBb4);
 
@@ -149,8 +149,8 @@ C5Key.addEventListener("mousedown", playC5);
 const Db5Key = document.querySelector("#Db5");
 const playDb5 = () => {
   playSound(Db5);
-  Db5Key.classList.add("active");
-  setTimeout(() => Db5Key.classList.remove("active"), 200);
+  Db5Key.classList.add("activeb");
+  setTimeout(() => Db5Key.classList.remove("activeb"), 200);
 };
 Db5Key.addEventListener("mousedown", playDb5);
 
@@ -167,8 +167,8 @@ D5Key.addEventListener("mousedown", playD5);
 const Eb5Key = document.querySelector("#Eb5");
 const playEb5 = () => {
   playSound(Eb5);
-  Eb5Key.classList.add("active");
-  setTimeout(() => Eb5Key.classList.remove("active"), 200);
+  Eb5Key.classList.add("activeb");
+  setTimeout(() => Eb5Key.classList.remove("activeb"), 200);
 };
 Eb5Key.addEventListener("mousedown", playEb5);
 
