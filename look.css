@@ -18,6 +18,9 @@ body{
 	font-size: 60px;
 	cursor: default;
 }
+#name span{
+	display: inline-block;
+}
 .piano{
 	display: flex;
 	flex-wrap: wrap;

@@ -233,3 +233,34 @@ window.addEventListener("keydown", ({ keyCode }) => {
   // Press P
   if (keyCode === 80) return playE5();
 }); 
+var t1 = anime.timeline({
+  easing: 'easeInOutQuad'
+});
+t1.add({
+  targets: '#name',
+  translateY: 200,
+  scale: 2,
+  duration:1
+},0);
+t1.add({
+  targets: '.piano, .footer',
+  opacity: 0,
+  duration:1
+},0);
+t1.add({
+  targets: '#name span',
+  translateX: [-1000,0],
+  opacity: [0,1],
+  delay: anime.stagger(200, {start: 100})
+});
+t1.add({
+  targets: '#name',
+  translateY: 0,
+  scale: 1,
+  duration: 1000
+});
+t1.add({
+  targets: '.piano, .footer',
+  opacity: [0,1],
+  duration: 2000
+});
