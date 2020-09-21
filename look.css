@@ -16,6 +16,7 @@ body{
 	color: #fff;
 	font-family: 'Rubik', sans-serif;
 	font-size: 60px;
+	cursor: default;
 }
 .piano{
 	display: flex;
@@ -25,6 +26,7 @@ body{
 	width: 100vw;
 	margin: 0;
 	padding: 0;
+	
 }
 .board{
 	border-top: 10px solid #38446D;
@@ -42,6 +44,7 @@ body{
 	border-radius:0 0 5px 5px;
 	box-shadow: 5px 5px 5px 2px #5F5F5F;
 	transition: all .2s ease;
+	cursor: default;
 }
 .Wkey:active, .active{
 	box-shadow: 5px 0 5px  1px #5F5F5F;
@@ -59,7 +62,8 @@ body{
 	border-radius:0 0 8px 8px;
 	background:linear-gradient(#303030,#3B3B3B);
 	box-shadow: 2px 2px 8px 1px #5F5F5F;
-	transition: all 2s ;
+	transition: all 1s ;
+	cursor: default;
 }
 .Bkey:hover, .activeb{
 	background:linear-gradient(#000,#000);
