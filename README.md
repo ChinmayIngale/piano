@@ -2,7 +2,7 @@
 A virtual piano made in `HTML` `CSS` and `JavaScript`. plays piano note on a key press.
 
 ## Demo
-for live demo [click here.](https://chinmayingale.github.io/piano/)
+for live demo [click here.](https://smallpiano.netlify.app/)
 
 ## Screenshot
 ![screenshot](https://raw.githubusercontent.com/ChinmayIngale/piano/master/img/ss.PNG "piano")
